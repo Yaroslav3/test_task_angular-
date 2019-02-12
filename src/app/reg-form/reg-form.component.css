@@ -1,0 +1,36 @@
+.reg{
+  padding: 40px;
+}
+
+
+.user-details {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 20px;
+
+}
+
+.user-details p {
+  /*//padding-left: 10px;*/
+  color: #4a3a3e;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.user-details h3 {
+  text-align: center;
+}
+
+.info-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-group span {
+  font-size: 12px;
+}
+
+.info-group .info {
+  font-weight: bold;
+  color: #3b0606;
+}

@@ -1,0 +1,82 @@
+<div *ngIf="photo" class="pageTwo">
+  <div class="photo-background">
+    <div class="inscriptions-header-one">
+      <h3>DUBAI LIFESTYLE APP</h3>
+    </div>
+    <div class="inscriptions-header-two">
+      <h1>Welcome To The <span> DUBAI LIFESTYLE APP</span> Members</h1>
+    </div>
+    <div>
+      <img [src]=photo[0].url>
+    </div>
+    <div>
+      <form class="video-block" [formGroup]="formGroup" (ngSubmit)="saveUser()">
+        <video controls required>
+          <source src="./assets/video/Sea_Waves.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="block-input">
+          <div class="form-group">
+            <label>
+              <input formControlName="firstName" class="input" type="text" name="firstName"
+                     placeholder="First Name" required>
+            </label>
+            <div *ngIf="isSubmitted && f.firstName.errors">
+              <div *ngIf="f.firstName.errors.required"><span>* filed required</span></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>
+              <input formControlName="lastName" class="input " type="text" name="lastName"
+                     placeholder="Last Name" required>
+            </label>
+            <div *ngIf="isSubmitted && f.lastName.errors">
+              <div *ngIf="f.lastName.errors.required"><span>* filed required</span></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>
+              <input formControlName="email" class="input " type="email" name="email"
+                     placeholder="Email" required>
+            </label>
+            <div *ngIf="isSubmitted && f.email.errors">
+              <div *ngIf="f.email.errors.required"><span>* filed required</span></div>
+              <div *ngIf="f.email.errors.email"><span>* email</span></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>
+              <input formControlName="password" class="input " type="password" name="password"
+                     placeholder="Password" autocomplete="new-password" required>
+            </label>
+            <div *ngIf="isSubmitted && f.password.errors">
+              <div *ngIf="f.password.errors.required"><span>* filed required</span></div>
+            </div>
+          </div>
+            <div class="phone">
+              <label>
+                <input formControlName="code" class="input code" type="number" name="code"
+                       placeholder="45" required>
+              </label>
+              <div *ngIf="isSubmitted && f.code.errors">
+                <div *ngIf="f.code.errors.required"><span></span></div>
+              </div>
+
+              <label>
+                <input formControlName="phone" class="input" type="number" name="phone"
+                       placeholder="Phone number" required>
+              </label>
+              <div *ngIf="isSubmitted && f.phone.errors">
+                <div *ngIf="f.phone.errors.required"><span></span></div>
+              </div>
+          </div>
+          <div class="btn">
+            <button class="btn-default">GET FREE ACCESS</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

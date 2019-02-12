@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Monoton-Regular';
+  src: url('./assets/fonts/monoton/Monoton-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Khant-Bold';
+  src: url('./assets/fonts/khand/khand-bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Khant-Light';
+  src: url('./assets/fonts/khand/khand-light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Khant-Medium';
+  src: url('./assets/fonts/khand/khand-medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Light Italic';
+  src: url('/assets/fonts/roboto condensed/Robotocondensedlightitalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Bold';
+  src: url('/assets/fonts/roboto condensed/Robotocondensedbold.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Light';
+  src: url('/assets/fonts/roboto condensed/Robotocondensedlight.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+
+* {
+  transition: all .2s;
+  box-sizing: border-box;
+
+  margin: 0 ;
+  padding: 0;
+}
+
+:active, :hover, :focus{
+  outline: 0;
+  outline-offset: 0;
+}

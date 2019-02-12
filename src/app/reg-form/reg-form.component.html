@@ -1,0 +1,31 @@
+<div class="reg">
+  <div class="user-details">
+    <p>
+      user info
+    </p>
+    <div *ngIf="isInfo">
+      <p> You need to register to display information.</p>
+    </div>
+
+    <div *ngIf=" registration">
+      <div *ngIf="isInfoUser " class="info-group">
+        <div>
+          <span>surname: <span class="info">{{registration.firstName}}</span></span>
+        </div>
+        <div>
+          <span>name:  <span class="info">{{registration.lastName}}</span></span>
+        </div>
+        <div>
+          <span>email:  <span class="info">{{registration.email}}</span></span>
+        </div>
+        <div>
+          <span> password:  <span class="info">{{registration.password}}</span></span>
+        </div>
+        <div>
+          <span> phone:  <span class="info">({{registration.code}}) {{registration.phone}}</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

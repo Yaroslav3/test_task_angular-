@@ -1,0 +1,131 @@
+<div *ngIf="photo" class="pageOne">
+  <div class="photo-background">
+    <div class="inscriptions-header-one">
+      <h3>DUBAI LIFESTYLE APP</h3>
+    </div>
+    <div class="inscriptions-header-two">
+      <h1>Be One of <span> 100 BETA TESTERS</span> To Profit</h1>
+      <h1>Form The <span>DUBAI LIFESTYLE APP</span></h1>
+    </div>
+    <div>
+      <img [src]=photo[0].url>
+    </div>
+    <div class="video-block">
+      <video controls>
+        <source src="./assets/video/Sea_Waves.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="block-input">
+      <label>
+        <input class="input left" type="text" placeholder="Enter Your Name">
+      </label>
+      <label>
+        <input class="input" type="email" placeholder="Enter Your Email">
+      </label>
+    </div>
+    <div class="btn">
+      <button class="btn-default">GET FREE ACCESS</button>
+    </div>
+
+    <div class="inscriptions">
+      <p> We respect your privacy and your information is 100% secure </p>
+    </div>
+
+    <div class="block-banner">
+      <div *ngFor="let elem of photoBanner">
+        <div class="block-banner-img">
+          <img [src]=elem.url alt="photo">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="info-block">
+    <div class="info-content">
+      <h3>Meet Scott Hathaway</h3>
+      <p>CEO & Founder, DUBAI LIFESTYLE APP</p>
+    </div>
+    <div class="banner-info">
+      <img [src]="photo[1].url">
+    </div>
+    <div class="info-content-two">
+      <h3>If tou haven't yet heard, the <span> DUBAI LIFESTYLE APP </span> has just launched internationally</h3>
+      <h3>and we're looking for <span class="color"> 100 beta testers </span> to make profits of over</h3>
+      <p>$<span>7000</span> a day</p>
+      <h3>Watch the video now to see how can join us - <span class="color">FREE</span></h3>
+    </div>
+    <div class="banner-info-two">
+      <img [src]="photo[2].url" alt="photo">
+    </div>
+    <div class="banner-info-tree">
+      <span>Your Friends,</span>
+      <span class="light"> The <span class="bold">DUBAI LIFESTYLE APP</span> Team</span>
+    </div>
+  </div>
+  <div class="line">
+    <hr>
+  </div>
+  <div class="comment">
+    <h3>What People Are Saying </h3>
+  </div>
+  <div class="comment-info" *ngFor="let elem of comment">
+    <div class="details">
+      <span> By </span><span
+      class="name"> {{elem.name}} {{elem.surname}}</span><span> on </span><span> {{elem.date | date:'EEEE, MMMM d, y'}} </span>
+      <rating [(ngModel)]="rate" [max]="elem.assessment" [readonly]="isReadonly" style="color: #ffae00;"></rating>
+    </div>
+    <div class="status">
+      <p>{{elem.status}}</p>
+    </div>
+    <div class="comment-text">
+      <p>{{elem.comment}}</p>
+    </div>
+  </div>
+  <br>
+  <div class="footer">
+    <div class="bock-footer">
+      <h3>Enter tout full name and email address in the form below to get immediate</h3>
+      <h3><span>FREE </span> access to the <span> DUBAI LIFESTYLE APP</span></h3>
+    </div>
+    <div class="block-input-footer">
+      <label>
+        <input class="input left-footer" type="text" placeholder="Enter Your Name">
+      </label>
+      <label>
+        <input class="input" type="email" placeholder="Enter Your Email">
+      </label>
+    </div>
+    <div class="btn-footer">
+      <button class="btn-default-footer">GET FREE ACCESS</button>
+    </div>
+    <div class="inscriptions">
+      <p> We respect your privacy and your information is 100% secure </p>
+    </div>
+
+    <div class="block-banner">
+      <div *ngFor="let elem of photoBanner">
+        <div class="block-banner-img">
+          <img [src]=elem.url alt="photo">
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="footer-text">
+      <p>Binary options present a significant opportunity for you to make serious earnings, but like any investment,
+        they
+        present an element of risk. Potential loss of full of partial funds should be considered at all times before
+        making any trade. We urge you to explore individual tax liability laws in your country of residence, and
+        recommend
+        reading our Terms of Service for more information. Please note: It is illegal under U.S. law to solicit the
+        purchase and sale of commodity options unless explicitly listed for trading on a CFTC exchange or legally
+        exempt.</p>
+    </div>
+    <div class="img-footer">
+      <img [src]="photo[3].url">
+    </div>
+  </div>
+</div>

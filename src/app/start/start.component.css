@@ -1,0 +1,23 @@
+.info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.info p {
+  font-size: 20px;
+  font-family: "Roboto Condensed Bold", serif;
+}
+
+.block-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 80px;
+}
+
+.block-info p {
+  font-family: "Roboto Condensed Light", serif;
+  font-size: 15px;
+}

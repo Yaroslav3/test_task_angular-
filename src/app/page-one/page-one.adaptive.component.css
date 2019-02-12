@@ -1,0 +1,258 @@
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+
+  .footer-text p {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 10px;
+  }
+
+  .img-footer img {
+    margin-top: -500px;
+    height: 580px;
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+  .wrapper {
+    max-width: 970px;
+  }
+
+  .line hr {
+    width: 80%;
+  }
+
+
+  .comment-info {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  .bock-footer h3 {
+    font-size: 15px;
+  }
+
+  .bock-footer span {
+    font-size: 20px;
+
+  }
+
+  .img-footer img {
+    margin-top: -490px;
+    height: 580px;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 760px;
+  }
+
+  /*********/
+
+
+  .inscriptions-header-one h3 {
+    font-size: 15px;
+  }
+
+
+  .inscriptions-header-two h1 {
+    font-size: 25px;
+  }
+
+  .inscriptions-header-two h1 span {
+    font-size: 25px;
+
+  }
+
+
+  .photo-background img {
+    height: 830px;
+  }
+
+  .video-block video {
+    width: 423px;
+    height: 287px;
+  }
+
+  .block-input .input {
+    width: 200px;
+  }
+
+  .btn .btn-default {
+    width: 420px;
+  }
+
+  /*****/
+  .info-content {
+    padding-top: 60px;
+  }
+
+  .info-content h3 {
+    color: #401212;
+    font-family: Khant-Medium, serif;
+    font-size: 22px;
+
+  }
+
+  .info-content p {
+    font-family: Khant-Light, serif;
+    font-size: 15px;
+    margin-top: -13px;
+    color: #666666;
+  }
+
+
+  .info-content-two h3 {
+    font-size: 12px;
+  }
+
+  .info-content-two span {
+    font-size: 15px;
+  }
+
+
+  .info-content-two p {
+    font-size: 35px;
+  }
+
+  .info-content-two p span {
+    font-size: 35px;
+
+  }
+
+
+  .banner-info-tree span {
+    font-size: 12px;
+
+  }
+
+  .banner-info-tree .light {
+    font-size: 12px;
+  }
+
+  .banner-info-tree .bold {
+    padding-top: 8px;
+    font-family: Khant-Bold, serif;
+    font-size: 15px;
+    color: #2e2e2e;
+  }
+
+  /*****/
+  .comment h3 {
+    font-size: 25px;
+  }
+
+
+  .details span {
+    font-size: 11px;
+  }
+
+  .details .name {
+    font-weight: bold;
+  }
+
+
+  .status p {
+    font-size: 11px;
+  }
+
+  .comment-text p {
+    font-size: 11px;
+  }
+
+
+  .block-input-footer .input {
+    width: 220px;
+  }
+
+  .btn-footer .btn-default-footer {
+    width: 460px;
+  }
+
+  .inscriptions p {
+    font-size: 10px;
+  }
+
+  .block-banner-img {
+    padding: 10px;
+  }
+
+  .block-banner img {
+    width: 50px;
+    height: 20px;
+  }
+
+
+  .bock-footer h3 {
+    font-size: 14px;
+  }
+
+  .bock-footer span {
+    font-size: 19px;
+
+  }
+
+  .img-footer img {
+    margin-top: -450px;
+    height: 580px;
+  }
+
+  .footer-text p {
+    font-size: 8px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    max-width: 470px;
+  }
+/***********************/
+
+  .video-block video {
+    width: 380px;
+    height: 247px;
+  }
+
+  .block-input .input {
+    width: 180px;
+  }
+
+  .btn .btn-default {
+    width: 380px;
+  }
+
+/***********************/
+
+  .block-input-footer .input {
+    width: 180px;
+  }
+
+  .btn-footer .btn-default-footer {
+    width: 380px;
+  }
+
+  .bock-footer h3 {
+    font-size: 13px;
+  }
+
+  .bock-footer span {
+    font-size: 15px;
+
+  }
+
+  .img-footer img {
+    margin-top: -480px;
+    height: 450px;
+  }
+
+
+}

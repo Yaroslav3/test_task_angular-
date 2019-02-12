@@ -1,0 +1,38 @@
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {*/
+  /*color: #fff;*/
+  /*background-color: #b2b2b2;*/
+/*}*/
+
+/*.nav-pills .nav-link {*/
+  /*text-align: left;*/
+  /*width: 100%;*/
+/*}*/
+/*a {*/
+  /*color: #524343;*/
+  /*text-decoration: none;*/
+  /*background-color: transparent;*/
+  /*font-size: 14px;*/
+/*}*/
+/*.block-group{*/
+  /*display:inline;*/
+  /*width: 200px;*/
+  /*height: auto;*/
+  /*padding: 10px;*/
+  /*!*background-color: #dbdbdb;*!*/
+  /*margin-top: -16px;*/
+/*}*/
+
+/*.nav-item .badge-light{*/
+  /*color: #ffffff;*/
+  /*background-color: #5960ff;*/
+/*}*/
+
+/*.nav-item span {*/
+  /*color: #2c88b5;*/
+/*}*/
